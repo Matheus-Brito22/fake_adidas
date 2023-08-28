@@ -1,0 +1,542 @@
+
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    background-color: #000000;
+    width: 100%;
+    height: 40px;
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+header nav{
+    display: flex;
+    align-items: flex-end; 
+    font-family: 'REM', sans-serif ; 
+    font-size: 14px;
+}
+
+.menu-hamburguer{
+    width: 32px;
+    cursor: pointer;
+    display: none;
+}
+.menu-hamburguer span{
+    height: 2px;
+    width: 100%;
+    background-color: #000000;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.container{
+    max-width: 1560px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    margin-top: 5px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 18px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.pesquisa{
+    margin-left: 75px;
+    padding: 6px;
+    background-color: #ebeaea;
+    border: none;
+}
+
+header img{
+    width: 80px;
+    max-width: 100%;
+    margin-left: 2%;
+}
+
+.conteudo-primario{
+    width: 100%;
+    height: 860px;
+    background-image: linear-gradient(to right, #fff, #fff, #c3f68e, #95ef01);
+}
+
+.container-img{
+    position: relative;
+
+}
+
+.container-img img{
+    height: 500px;
+    position: absolute;
+    margin-top: 13%;
+    top: 0;
+    right: 0;
+}
+
+.container-img2{
+    position: relative;
+    
+}
+
+.container-img3{
+    width: 500px;
+    display: none;
+}
+
+.container-img3 img{
+    max-width: 100%;
+}
+
+.container-img2 img{
+    height: 600px;
+    position: absolute;
+    margin-top: 4%;
+    margin-right: 500px;
+    top: 0;
+    right: 0;
+}
+
+.title-1{
+  margin-right: 5%;  
+  margin-top: 50px;
+  float: right;
+}
+
+.title-1 h1{
+    font-family: 'Staatliches',sans-serif;
+}
+
+.title-1 p{
+    margin-right: 110px;
+    font-size: 23px;
+    font-family: 'REM',sans-serif;
+}
+
+.title-2{
+    height: 90%;
+    display: flex;
+    align-items: center;  
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: 'REM', sans-serif;
+}
+
+.title-2 h1{
+    font-size: 50px;
+    font-family: 'Staatliches',sans-serif;
+}
+
+.title-2 button, h1{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.title-2 button{
+    display: block;
+    background-color: #000000;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    width: 200px;
+    font-family: 'Staatliches',sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container2{
+   max-width: 1524px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+h1{
+    margin-top: 30px; 
+    margin-bottom: 40px; 
+    font-family: 'Roboto'; 
+    font-size: 38px;
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+.shop li{
+    width: 300px;
+    margin-right: 15px;
+}
+
+.shop a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.shop h3{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+.shop p, .tendencias p{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+li img{
+    max-width: 100%;
+}
+
+
+.tendencias{
+    margin-top: 100px;
+}
+
+.tendencias li{
+    width: 400px;
+    margin-right: 15px;
+
+}
+
+.tendencias h3{
+    font-family: 'REM';
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+}
+
+ .alinhamento button{
+    font-family: 'REM';
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid black;
+    letter-spacing: 2px;
+}
+
+.alinhamento{
+    height: 100px;
+    display: flex;
+    align-items: end;
+    
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+ 
+article div{
+    margin-top: 100px;
+    width: 700px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 600;
+}
+
+article p{
+    line-height: 1.5em;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #000000;
+    width: 100%;
+    height: 75px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li {
+    
+    margin-right: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #b4b4b4;
+    font-size: 12px
+    
+}
+
+nav a:hover{
+    border-bottom: 2px solid black;
+}
+
+.shop a:hover{
+    border-top:2px solid black; ;
+}
+
+.teste{
+    width: 300px;
+    height: 500px;
+}
+
+@media screen and (max-width: 1000px){
+    .conteudo-primario{
+        max-width: 100%;
+        width: 987px;
+        height: 860px;
+        background-image: linear-gradient(to top, #fff, #fff, #c3f68e, #95ef01);
+    }
+
+    .container2{
+        max-width: 987px;
+        width: 100%;
+        margin: 0 auto;
+     }
+
+    
+    .container-img img{
+        height: 200px;
+        position: absolute;
+        margin-top: 250px;
+        top: 0;
+        right: 0;    
+    }
+    .container-img2 img{
+        height: 400px;
+        margin-top: 200px;
+        margin-right: 400px;
+
+    }
+
+    .title-2 h1, .title-2 p, .title-2 button{
+        display: none;
+    }
+
+    .shop h1, .tendencias h1{
+        margin-left: 52px; 
+        margin-bottom: 40px; 
+        font-family: 'Roboto'; 
+        font-size: 40px;
+
+    }
+
+    ul{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+    .tendencias li{
+        width: 300px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    
+    }
+
+    article{
+        display:block;
+        text-align: justify;
+    }
+
+    article div{
+        width: 200px;
+        margin-left: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .container{
+        width: 767px;
+        max-width: 90%;
+        display: flex;
+        justify-content:  space-between;
+        align-items: center;
+    }
+
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .conteudo-primario{
+        max-width: 100%;
+        width: 987px;
+        height: 860px;
+
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .menu-hamburguer{
+       display: block;
+    }
+
+
+    .title-1{
+        margin-top: 1px;
+        display: flex;
+        align-items: center;
+        margin-right: 10%;
+      }
+      
+      .title-1 h1{
+          font-family: 'Staatliches',sans-serif;
+      }
+
+      .title-2{
+        display: flex;
+        justify-content: center;
+     }
+
+     .title-2 h1, .title-2 p, .title-2 button{
+        display: flex;
+    }
+      
+      .container-img2{
+        display: none;
+      }
+      .container-img{
+        display: none;
+      }
+     .container-img3{
+        display:flex;
+        justify-content: center;
+        width: 100%
+     }
+
+     .shop{
+        margin-top: 350px;
+     }
+
+
+    .shop li{
+        width: 375px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    .tendencias li{
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+
+    .tendencias li{
+        width: 375px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    
+    }
+
+    .container2{
+        width: 767px;
+        max-width: 90%;
+        display: block;
+        justify-content:  space-between;
+        align-items: center;
+
+
+
+    }
+
+    article{
+        width: 100px;
+        
+    }
+
+
+    article div{
+    width: 400px;
+    max-width: 100%;
+    margin-left: 0px;
+    }
+}
+
+
+
+@media screen and (max-width: 1360px){
+
+    .container{
+        max-width: 1024px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .container-img img{
+        height: 400px;
+        position: absolute;
+        margin-top: 250px;
+        top: 0;
+        right: 0;    
+    }
+    .container-img2 img{
+        height: 400px;
+        margin-top: 200px;
+        margin-right: 400px;
+
+    }
+
+    .title-2{
+        height: 90%;
+        display: flex;
+        align-items: center;  
+        margin-left: 4%;
+        font-size: 20px;
+        font-family: 'REM', sans-serif;
+    }
+
+    ul{
+        flex-wrap: wrap;
+        
+    }
+
+    .shop li{
+        width: 300px;
+        margin-right: 35px;
+        margin-bottom: 20px;
+    }
+
+    .tendencias ul{
+        justify-content: space-between;
+    }
+
+    article{
+        display:flex;
+        text-align: justify;
+    }
+
+    article div{
+        width:500px;
+    }
+
+}
