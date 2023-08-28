@@ -240,6 +240,7 @@ li img{
     border: none;
     border-bottom: 2px solid black;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .alinhamento{
